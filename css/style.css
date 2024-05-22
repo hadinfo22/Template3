@@ -1,0 +1,119 @@
+/**{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}*/
+body{
+    font-family: "Marcellus", serif;
+}
+.bg-color{
+    background-color:rgba(157, 117, 8, 0.664) !important;
+}
+.text-style{
+    font:normal bold 15px "Marcellus SC", serif !important;
+    color:rgba(157, 117, 8, 0.664) !important;
+    text-transform: uppercase !important;   
+    letter-spacing:2px !important;
+}
+.n-style{
+    font:normal bold 14px "Marcellus", serif !important;
+    color:rgba(157, 117, 8, 0.664) !important;
+    text-transform: capitalize !important;
+    letter-spacing:2px !important;
+}
+.selection:hover{
+    background-color:rgba(157, 117, 8, 0.664) !important;
+    color:white !important;
+}
+.nav-hover:hover{
+    transform:scale(1.1,1.1) !important;
+    border:2px solid rgba(157, 117, 8, 0.664) !important;
+    border-radius:5px !important ;
+}
+.font{
+    font-size:30px !important;
+}
+.icon{
+    font-size:50px !important;
+    color:rgba(157, 117, 8,1) !important;
+}
+.btn-hover:hover{
+   color:white !important;
+}
+.gradient-bg-color{
+    background: linear-gradient(to bottom,rgba(157, 117, 8,1) , white);
+}
+.portrait1{
+    background-image: url(../images/chocolate6.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important; 
+}
+.portrait2{
+    background-image: url(../images/chocolate15.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important; 
+}
+.our-chocolate .before-after::before, .before-after::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    transition: 1s;
+    opacity: 0;
+    background-color: rgba(157, 117, 8, 0.664)!important;
+}
+.our-chocolate .before-after::before{
+    left: 0%;
+    top: 0%;
+}
+.our-chocolate .before-after::after{
+    right: 0%;
+    bottom: 0%;
+}
+.our-chocolate .before-after:hover::before, .our-chocolate .before-after:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+} 
+.box .card {
+    transition: .5s;
+}
+.card-img-overlay {
+    transition: .5s;
+}
+.box .card:hover {
+    transform: scale(0.9);
+}
+.box .card:hover .card-img-overlay{
+    transform: scale(0.9);
+}
+.box:hover .card-img {
+    filter: grayscale(100%);
+} 
+.card_poscard .ligne {
+    transition: 1s;
+}
+.card_poscard:hover .ligne {
+    transform: scale(3.0);
+    transform-origin: left;
+}
+  
+.card_poscard {
+    overflow: hidden;  
+}
+  
+.card_poscard .img_poscard {
+    transition: 0.5s;
+}
+  
+.card_poscard:hover .img_poscard{
+    transform: scale(1.1);  
+}
+.bg-hoverfooter:hover {
+     color:rgba(157, 117, 8, 1) !important;
+    
+  
+  }
+ 
+
+

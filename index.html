@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chocolate</title>
+        <meta charset="UTF-8">
+        <!-- external stylesheet link with css file -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- font Awesome icons link-->
+        <link rel="stylesheet" href="css/all.css">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--responsive designed to mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Balthazar&family=Bebas+Neue&family=Bellefair&family=Benne&family=Castoro+Titling&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Kaushan+Script&family=Luxurious+Roman&family=Marcellus&family=Marcellus+SC&family=Merienda:wght@300..900&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Balthazar&family=Bebas+Neue&family=Bellefair&family=Benne&family=Castoro+Titling&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Kaushan+Script&family=Luxurious+Roman&family=Marcellus&family=Marcellus+SC&family=Merienda:wght@300..900&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+      </head>
+    <body>
+      <header>  <!--begining of header-->
+            <nav class="navbar navbar-expand-sm bg-white navbar-white fixed-top">
+                <div class="container-fluid">
+                    <!--begining logo-->
+                  <a class="navbar-brand" href="#">
+                    <img src="images/chocolate1.jpg" class="img-fluid border-end border-2" alt="chocolate" draggable="false" style="width:150px; height:70px">
+                  </a><!--/ending of logo-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown ms-3">
+                            <a class="nav-link dropdown-toggle text-style nav-hover" href="#" role="button" data-bs-toggle="dropdown">our chocolate</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item n-style selection" href="#">seasonal</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">pick & mix</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">truffles</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">chocolate bars</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">chocolate boxes</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#"> gift suitcase</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown ms-3">
+                            <a class="nav-link dropdown-toggle text-style nav-hover" href="#" role="button" data-bs-toggle="dropdown">flavors</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item n-style selection" href="#">milk chocolate</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">dark chocolate</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">white chocolate</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">caramel</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">nuts</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">fruits</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection" href="#">more...</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown ms-3">
+                            <a class="nav-link dropdown-toggle text-style nav-hover" href="#" role="button" data-bs-toggle="dropdown">our recipes</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item n-style selection" href="#">see all recipes</a></li>
+                            </ul>
+                          </li> 
+                      <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle text-style nav-hover" href="#" role="button" data-bs-toggle="dropdown">gift ideas</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item n-style selection" href="#">by occasion</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item n-style selection" href="#">by recipient</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item n-style selection" href="#">by saison</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item n-style selection" href="#">by price</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <form class="d-flex">
+                  <input class="form-control me-3 n-style border-2" type="search" placeholder="Search" style="width:250px; border:2px solid rgba(157, 117, 8, 0.664)">
+                  <button class="btn bg-color me-3 n-style text-white" type="button">search</button>
+                  <button type="button" class="btn bg-color me-3 n-style text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
+                </form>
+              </nav>              
+              <div class="modal fade n-style" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-color text-light">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="recipient-email" class="col-form-label text-color ms-4">Email Address</label>
+                          <input type="email" class="form-control border-color mx-auto" id="recipient-email" style="width:90%">
+                          <p class="text-dark mt-1 ms-4">We'll never share your email with anyone else.</p>
+                        </div>
+                        <div class="mb-3">
+                          <label for="recipient-password" class="col-form-label text-color ms-4">Password</label>
+                          <input type="password" class="form-control border-color mx-auto" id="recipient-password" style="width:90%">
+                        </div>
+                        <div class="form-check form-switch ms-2 text-color">
+                          <input class="form-check-input bg-color border-color ms-2" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+                          <label class="form-check-label text-color ms-1" for="mySwitch">Remmember Me</label>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                      <button type="button" class="btn bg-color text-white ms-3 mb-3">Login</button>
+                      <button type="button" class="btn bg-color text-white me-3 mb-3" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>         
+      </header>   <!--/ending of header--> 
+      <main>   <!--begining of first section-->
+        <div class="position-relative"> 
+            <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                   <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="images/chocolate2.jpg" alt="Chocolate Box" class="d-block" style="width:100%;height:100vh">
+                      <div class="carousel-caption bg-color opacity-70 rounded ">
+                         <h3 class="text-style text-dark font">The Sweetest Box</h3>
+                         <p class="n-style text-dark">There Is Nothing Better Than A Gift Like This!</p>
+                         <button class="btn btn-lg bg-white n-style" >Order Now</button>
+                      </div>
+                  </div>
+                <div class="carousel-item">
+                     <img src="images/chocolate3.jpg" alt="Chocolate" class="d-block" style="width:100%; height:100vh">
+                     <div class="carousel-caption bg-color opacity-70 rounded">
+                        <h3 class="text-style text-white font ">Milk Chocolate</h3>
+                        <p class="n-style text-white">Enjoy the great taste</p>
+                        <button class="btn btn-lg bg-white n-style">Order Now</button>
+                     </div> 
+                </div>
+                <div class="carousel-item">
+                    <img src="images/chocolate4.jpg" alt="Chocolate Truffle" class="d-block" style="width:100%; height:100vh">
+                    <div class="carousel-caption bg-color opacity-70 rounded">
+                        <h3 class="text-style text-white font">Chocolate Truffle</h3>
+                        <p class="n-style text-white">Find Fun</p>
+                        <button class="btn btn-lg bg-white n-style">Order Now</button>
+                    </div>  
+                </div>
+                <div class="carousel-item">
+                    <img src="images/chocolate5.jpg" alt="White Chocolate" class="d-block" style="width:100%; height:100vh">
+                    <div class="carousel-caption bg-color opacity-70 rounded">
+                        <h3 class="text-style text-dark font">White Chocolate</h3>
+                        <p class="n-style text-dark">An Impressive Moment!</p>
+                        <button class="btn btn-lg bg-white n-style">Order Now</button>
+                    </div>  
+                </div>
+              </div>
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                 <span class="carousel-control-next-icon"></span>
+              </button>
+          </div>
+          <div class="position-fixed z-1 end-0 bottom-0 top-3 mb-5 me-4">
+              <ul>
+                  <li class="list-group-item my-3 rounded"><a class="icon btn-hover" href="#" title="facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
+                  <li class="list-group-item my-3 rounded"><a class="icon btn-hover" href="#" title="whatsapp"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                  <li class="list-group-item my-3 rounded"><a class="icon btn-hover" href="#" title="twitter"><i class="fa-brands fa-square-twitter"></i></a></li>
+                  <li class="list-group-item my-3 rounded"><a class="icon btn-hover" href="#" title="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                  <li class="list-group-item my-3 rounded"><a class="icon btn-hover" href="#" title="instagram"><i class="fa-brands fa-square-instagram"></i></a></li>
+             </ul>
+          </div>
+        </div>
+      </main>   <!--/ending of first section-->
+      <section class="bg-color p-5 rounded-bottom">  <!-- begining of to offer Section -->
+        <div class="d-flex align-items-center mb-4">
+           <h3 class="text-style font ms-3">to offer or to be offered</h3>
+        </div>
+        <p class="fs-6 text-white n-style ms-3">No gift ideas? do not panic. take a look at our selection designed just for you.</p> 
+        <a class="btn bg-white n-style selection mt-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn More" href="#">Learn More</a>
+      </section>  <!-- /ending of to offer Section -->
+      <section class="rounded-3"> <!-- begining of flavors chocolate Section -->  
+      <hr>
+      <div class="rounded w-100 shadow-lg p-4 mb-4 gradient-bg-color">
+        <h2 class="text-style font text-center text-white">flavors chocolate</h2>
+      </div>      
+      <div class="shadow-lg rounded">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item d-flex flex-column align-items-center">
+            <h2 class="accordion-header">
+              <button class=" accordion-button collapsed n-style p-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Milk Chocolate
+              </button>              
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-center n-style text-dark">Natural milk chocolates are both simple and sophisticated. 
+                They are designed to please as many people as possible. Particularly tasty, these chocolates bring sweetness to your coffee breaks. 
+                Whether you choose them in the form of a bar, small chocolate with a melting center or beautifully packaged papillotes, you are sure to please the whole family. 
+                Grab your favorite milk chocolate, bite into a piece and enjoy a deliciously creamy moment.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item d-flex flex-column align-items-center">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed n-style p-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Dark Chocolate
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-center n-style text-dark">They reveal all their flavors and deep notes once in the mouth and allow you to enjoy a break with aromas of character. 
+                Lovers of dark chocolate.</div>
+            </div>
+          </div>
+          <div class="accordion-item d-flex flex-column align-items-center">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed n-style p-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                White Chocolate
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-center n-style text-dark">Just like milk chocolate, white chocolate is intensely delicious and has been seducing the most refined palates for many years. 
+                Whether you like it plain or enhanced by carefully chosen ingredients, you are guaranteed to have a flawless experience with white chocolate!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item d-flex flex-column align-items-center">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed n-style p-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Nuts
+              </button>              
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-center n-style text-dark">You will love our hazelnut chocolates. 
+                True concentrates of indulgence, hazelnut chocolates are created by our master chocolatiers with the strictest respect for our chocolate-making traditions.
+              </div>
+            </div>
+          </div>                    
+        </div>
+      </div>      
+    </section>  <!-- /ending of flavors chocolate Section -->
+    <section>   <!-- begining of translate Section -->
+    <section>   <!-- begining of translate from arabic to english Section -->
+          <hr>
+          <div class=" m-0 w-100 p-4 rounded gradient-bg-color">
+              <h2 class="text-center text-style text-white font">Translate From Arabic To English</h2>
+          </div>
+              <div class="d-lg-flex flex-column justify-content-start align-items-start bg-color p-5 rounded-bottom">
+                <div class="pt-1">
+                  <h5 class="fs-5 me-4 text-center small n-style text-white">Write And Translate <span class="text-secondary">Press Here</span></h5>
+                </div>
+                <div class="pt-1">  
+                  <button type="button" class="btn n-style bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo" title="copied" data-bs-placement="right">Copy</button>
+                </div>
+                <div class="pt-2">
+                  <textarea  class="rounded col-12 n-style text-dark" name="" id="" cols="150" rows="6" placeholder="&nbsp;&nbsp;&nbsp;translate:"></textarea>
+                </div>
+              </div>
+         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog">
+             <div class="modal-content">
+                <div class="modal-header bg-color text-light">
+                   <h1 class="modal-title fs-5 n-style text-white" id="exampleModalLabel">Alert</h1>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <p style="direction: rtl;">تم نسخ النص .</p>
+                    </div>
+                  </form>
+                </div>
+              <div class="modal-footer">
+              <button type="button" class="btn bg-color n-style text-white" data-bs-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </section>   <!-- /ending of translate from arabic to english Section -->
+   <section>     <!-- begining of translate from arabic to frensh Section -->
+    <hr>
+    <div class=" m-0 w-100 p-4 rounded gradient-bg-color">
+        <h2 class="text-center text-style text-white font">Translate From Arabic To Frensh</h2>
+    </div>
+        <div class="d-lg-flex flex-column justify-content-start align-items-start bg-color p-5 rounded-bottom">
+          <div class="pt-1">
+            <h5 class="fs-5 me-4 text-center small n-style text-white">Write And Translate <span class="text-secondary">Press Here</span></h5>
+          </div>
+          <div class="pt-1">  
+            <button type="button" class="btn n-style bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo" title="copied" data-bs-placement="right">Copy</button>
+          </div>
+          <div class="pt-2">
+            <textarea  class="rounded col-12 n-style text-dark" name="" id="" cols="150" rows="6" placeholder="&nbsp;&nbsp;&nbsp;translate:"></textarea>
+          </div>
+        </div>
+   <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+          <div class="modal-header bg-color text-light">
+             <h1 class="modal-title fs-5 n-style text-white" id="exampleModalLabel">Alert</h1>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <p style="direction: rtl;">تم نسخ النص .</p>
+              </div>
+            </form>
+          </div>
+        <div class="modal-footer">
+        <button type="button" class="btn bg-color n-style text-white" data-bs-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>    
+</section>   <!-- /ending of translate from arabic to frensh Section -->
+<section>    <!-- begining of translate from arabic to german Section -->
+  <hr>
+  <div class=" m-0 w-100 p-4 rounded gradient-bg-color">
+      <h2 class="text-center text-style text-white font">Translate From Arabic To German</h2>
+  </div>
+      <div class="d-lg-flex flex-column justify-content-start align-items-start bg-color p-5 rounded-bottom">
+        <div class="pt-1">
+          <h5 class="fs-5 me-4 text-center small n-style text-white">Write And Translate <span class="text-secondary">Press Here</span></h5>
+        </div>
+        <div class="pt-1">  
+          <button type="button" class="btn n-style bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo" title="copied" data-bs-placement="right">Copy</button>
+        </div>
+        <div class="pt-2">
+          <textarea  class="rounded col-12 n-style text-dark" name="" id="" cols="150" rows="6" placeholder="&nbsp;&nbsp;&nbsp;translate:"></textarea>
+        </div>
+      </div>
+ <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+        <div class="modal-header bg-color text-light">
+           <h1 class="modal-title fs-5 n-style text-white" id="exampleModalLabel">Alert</h1>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <p style="direction: rtl;">تم نسخ النص .</p>
+            </div>
+          </form>
+        </div>
+      <div class="modal-footer">
+      <button type="button" class="btn bg-color n-style text-white" data-bs-dismiss="modal">OK</button>
+    </div>
+  </div>
+</div>
+</div>    
+</section>   <!-- /ending of translate from arabic to german Section -->
+<hr> 
+</section>   <!-- /ending of translate Section -->
+<section style="width:100vw ; height:50vh">  <!-- begining of first portrait section  -->
+   <div class="portrait1 w-100 h-100"></div>
+</section>   <!-- /ending of first portrait section  -->
+  <section class="our-chocolate d-none d-lg-block">   <!-- begining of our chocolate section  -->
+      <div class=" m-0 w-100 p-4 rounded gradient-bg-color">
+          <h2 class="text-center text-style text-white font">Our Chocolate</h2>
+      </div>
+      <div class="row d-lg-flex justify-content-around align-items-center">
+        <div class="before-after card position-relative col-3 p-0 shadow-lg p-4 mb-4 bg-white" >
+          <img src="images/chocolate7.jpg" class="card-img-top px-2 py-2 rounded-circle" alt="seasonal">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title text-style">seasonal</h5>
+              <p class="card-text small n-style text-dark">Create your Mother’s Day box.</p>
+            </div>    
+            <a class="btn n-style text-dark gradient-bg-color" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">discover</a>
+          </div>
+        </div>
+        <div class="before-after card position-relative col-3 p-0 shadow-lg p-4 mb-4 bg-white" >
+          <img src="images/chocolate8.jpg" class="card-img-top px-2 py-2 rounded-circle" alt="truffles">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title text-style">truffles</h5>
+              <p class="card-text small n-style text-dark">Enjoy a gourmet moment.</p>
+            </div>    
+            <a class="btn n-style text-dark gradient-bg-color" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">discover</a>
+          </div>
+        </div>
+        <div class="before-after card position-relative col-3 p-0 shadow-lg p-4 mb-4 bg-white" >
+          <img src="images/chocolate9.jpg" class="card-img-top px-2 py-2 rounded-circle" alt="chocolate bars">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title text-style">chocolate bars</h5>
+              <p class="card-text small n-style text-dark">premium quality cocoa beans.</p>
+            </div>    
+            <a class="btn n-style text-dark gradient-bg-color" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">discover</a>
+          </div>
+        </div>        
+      </div>
+      <div class=" row d-lg-flex justify-content-around align-items-center pt-5">
+        <div class="before-after card position-relative col-3 p-0 shadow-lg p-4 mb-4 bg-white" >
+          <img src="images/chocolate10.jpg" class="card-img-top px-2 py-2 rounded-circle" alt="boxes">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title text-style">boxes</h5>
+              <p class="card-text small n-style text-dark">You will love our selection of chocolates boxes!</p>
+            </div>    
+            <a class="btn n-style text-dark gradient-bg-color" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">discover</a>
+          </div>
+        </div>
+        <div class="before-after card position-relative col-3 p-0 shadow-lg p-4 mb-4 bg-white" >
+          <img src="images/chocolate11.jpg" class="card-img-top px-2 py-2 rounded-circle" alt="caramel">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title text-style">caramel</h5>
+              <p class="card-text small n-style text-dark">these chocolates bring sweetness to your coffee breaks.</p>
+            </div>    
+            <a class="btn n-style text-dark gradient-bg-color" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">discover</a>
+          </div>
+        </div>     
+        <div class="before-after card position-relative col-3 p-0 shadow-lg p-4 mb-4 bg-white" >
+          <img src="images/chocolate12.jpg" class="card-img-top px-2 py-2 rounded-circle" alt=" gift suitcase">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title text-style"> gift suitcase</h5>
+              <p class="card-text small n-style text-dark">They include your choice of all your favorite treats.</p>
+            </div>    
+            <a class="btn n-style text-dark gradient-bg-color" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">discover</a>
+          </div>
+        </div>
+      </div>
+      <div class=" row d-lg-flex justify-content-around align-items-center pt-5">
+        <div class="before-after card position-relative col-3 p-0 shadow-lg p-4 mb-4 bg-white" >
+          <img src="images/chocolate13.jpg" class="card-img-top px-2 py-2 rounded-circle" alt="nuts">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title text-style">nuts</h5>
+              <p class="card-text small n-style text-dark">ideal to accompany your cups of coffee or tea.</p>
+            </div>    
+            <a class="btn n-style text-dark gradient-bg-color" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">discover</a>
+          </div>
+        </div>
+        <div class="before-after card position-relative col-3 p-0 shadow-lg p-4 mb-4 bg-white" >
+          <img src="images/chocolate14.jpg" class="card-img-top px-2 py-2 rounded-circle" alt="fruits">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title text-style">fruits</h5>
+              <p class="card-text small n-style text-dark">They will delight young and old gourmands alike.</p>
+            </div>    
+            <a class="btn n-style text-dark gradient-bg-color" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">discover</a>
+          </div>
+        </div>
+      </div>                              
+</section>  <!-- /ending of our chocolate section  -->
+<section  class="position-relative" style="width:100vw ; height:50vh">  <!-- begining of second portrait section  -->
+  <div class="portrait2 w-100 h-100 position-absolute"></div>
+  <div class="bg-dark opacity-25 h-100 w-100 position-absolute"></div>
+</section>   <!-- /ending of second portrait section  -->
+<section>   <!-- begining of chef chocolat Section -->
+  <hr>
+  <div class=" m-0 w-100 rounded gradient-bg-color p-4 ">
+    <h2 class="text-center text-style text-white font ">Thank For chiefs</h2>
+  </div>
+  <div class="d-flex justify-content-around align-items-center flex-wrap mb-5">
+    <div class="box col-lg-3 m-3 h-75 " style="width: 25rem; ">        
+      <div class="card text-bg-dark">
+        <img src="images/chief1.jpg" class="card-img" alt="chief">
+        <div class="overley position-absolute w-100 h-100 t-0 s-0"></div>
+        <div class="card-img-overlay">
+          <h5 class="card-title n-style text-white fs-5">All Thanks and appreciation</h5>
+          <i class="fa-regular fa-clock"></i>
+          <span class="card-text n-style text-white"><small>May 22, 2024</small></span>
+          <p class="card-title fst-italic position-absolute bottom-0  mb-3 me-5 n-style text-white fs-5">Mohamed Ali<br/><small class="n-style text-white">chief.taste academy</small></p>              
+        </div>           
+        <img src="images/chief1.jpg" alt="chief" class=" w-25 h-25 position-absolute bottom-0 end-0 mb-2 me-2  border border-2 rounded-circle">
+      </div>          
+    </div>
+    <div class="box col-lg-3 m-3 h-75" style="width: 25rem;">
+      <div class="card text-bg-dark">
+        <img src="images/chief2.jpg" class="card-img " alt="chief">
+        <div class="overley position-absolute w-100 h-100 t-0 s-0"></div>
+        <div class="card-img-overlay">
+          <h5 class="card-title n-style text-white fs-5">All Thanks and appreciation</h5>
+          <i class="fa-regular fa-clock"></i>
+          <span class="card-text n-style text-white"><small>May 22, 2024</small></span>
+          <p class="card-title fst-italic position-absolute bottom-0  mb-3 me-5 n-style text-white fs-5">Mohamed Ali<br/><small class="n-style text-white">chief.Chocolatier</small></p>
+        </div>
+        <img src="images/chief2.jpg" alt="chief" class=" w-25 h-25 position-absolute bottom-0 end-0 mb-2 me-2 border border-2 rounded-circle">
+      </div>         
+    </div>
+    <div class="box col-lg-3 m-3 h-75"style="width: 25rem;">        
+      <div class="card text-bg-dark w-100 h-100">
+        <img src="images/chief3.jpg" class="card-img" alt="chief">
+        <div class="overley position-absolute w-100 h-100 t-0 s-0"></div>
+        <div class="card-img-overlay">
+          <h5 class="card-title n-style text-white fs-5">All Thanks and appreciation</h5>
+          <i class="fa-regular fa-clock"></i>
+          <span class="card-text n-style text-white"><small>May 22, 2024</small></span>
+          <p class="card-title fst-italic position-absolute bottom-0  mb-3 me-5 n-style text-white fs-5">Mohamed Ali<br/><small class="n-style text-white">chief.master</small></p>
+        </div>
+        <img src="images/chief3.jpg" alt="chief" class=" w-25 h-25 position-absolute bottom-0 end-0 mb-2 me-2 border border-2 rounded-circle">
+      </div>          
+    </div>
+  </div>
+</section>  <!-- /ending of chef chocolat Section -->     
+<section>  <!-- begining of our recipes section -->  
+  <div class=" m-0 w-100 rounded gradient-bg-color p-4 ">
+    <h2 class="text-center text-style text-white font ">our recipes</h2>
+  </div>
+  <div class="card card_poscard m-5 " style="box-shadow: 0 0 50px 0 rgba(157, 117, 8, 0.664);">
+    <div class="row d-port">
+      <div class="col-12 col-md-8 ps-3 pb-5">
+        <div class="card-body">
+          <h2 class="card-title n-style font mb-2">fruits chocolate</h2>
+          <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="n-style text-dark">Wed, May 22th 2024</small>
+          <div class="ligne bg-color rounded" style="height: 2px; width: 60px;"></div>
+          <p class="card-text fst-italic lh-lg n-style text-dark">dried or dried fruits: cranberries, goji berries, blackberries, raisins 120 g. 
+            dark chocolate min 70% cocoa 100 g. coconut oil 1 tsp. 
+            Break the chocolate into pieces and melt them in a bain-marie with the coconut oil (in a heat-resistant container which you place over a smaller saucepan of very hot water, without the bottom of the container being in contact with water).
+            Spread the melted chocolate evenly on a baking tray covered with baking paper. Sprinkle with a mixture of dried and/or dried fruits. Leave to harden for 30 minutes in the refrigerator.</p>
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>22 mins</a>            
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+        </div>
+      </div>
+      <div class="col-12 col-md-4">            
+          <img src="images/chocolate16.jpg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="fruits chocolate" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);">            
+      </div>          
+    </div>
+  </div>
+  <div class="card card_poscard m-5" style="box-shadow: 0 0 50px 0 rgba(157, 117, 8, 0.664);">
+    <div class="row">
+      <div class="col-12 col-md-4">            
+        <img src="images/chocolate17.jpg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="white chocolate" style="clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);">            
+      </div> 
+      <div class="col-12 col-md-8 ps-3 pb-5">
+        <div class="card-body">
+          <h2 class="card-title n-style font mb-2">white chocolate</h2>
+          <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="n-style text-dark">Wed, May 22th 2024</small>
+          <div class="ligne bg-color rounded" style="height: 2px; width: 60px;"></div>
+          <p class="card-text fst-italic lh-lg n-style text-dark">120 g macadamia butter, 150 g cocoa butter, 150 g erythritol powder** (see substitute above), 20 g powdered milk, 1 tbsp. coffee vanilla powder.
+            Place the macadamia butter and cocoa butter in a glass bowl and place the bowl in a saucepan ⅓ full of water.
+            Heat over medium heat, stirring occasionally. When the water boils, reduce the heat slightly and stir until the cocoa butter has completely melted.
+            In a small bowl, mix the powdered sweetener, milk and vanilla powder. Add this mixture to the melted butters, mixing continuously until you obtain a homogeneous and smooth texture.
+            Using a small ladle, distribute this mixture into the chocolate wafer molds and set aside for two hours in the refrigerator.
+            When the wafers have hardened, remove them from the pan and wrap them in parchment paper or aluminum foil. Keep refrigerated.</p>
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>22 mins</a>            
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+        </div>
+      </div>                   
+    </div>
+  </div>
+  <div class="card card_poscard m-5" style="box-shadow: 0 0 50px 0 rgba(157, 117, 8, 0.664);">
+    <div class="row d-port">
+      <div class="col-12 col-md-8 ps-3 pb-5">
+        <div class="card-body">
+          <h2 class="card-title n-style font mb-2">nuts chocolate</h2>
+          <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="n-style text-dark">Wed, May 22th 2024</small>
+          <div class="ligne bg-color rounded" style="height: 2px; width: 60px;"></div>
+          <p class="card-text fst-italic lh-lg n-style text-dark">2 eggs, 60 g flour, 100 g butter, 4 g baking powder, 100 g Lindt Dessert chocolate with 70% intense cocoa, 100 g sugar, 1 pinch of salt, 70g roasted hazelnuts.
+            Step 1. Melt the chocolate with the butter in a bain-marie.
+            Step 2. In a mixing bowl, whisk the eggs with the sugar. Add the melted chocolate to the previous mixture then mix.
+            Step 3. Add the flour, yeast and salt then mix until you obtain a homogeneous dough. Add around 50 g of crushed hazelnuts.
+            Step 4. Pour 3/4 of the muffin batter into small paper or silicone cases previously placed in round molds then arrange a few pieces of roasted hazelnuts.
+            Step 5. Bake the muffins at 180°C for around 20 minutes.</p>
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>22 mins</a>            
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+        </div>
+      </div>
+      <div class="col-12 col-md-4">            
+          <img src="images/chocolate18.jpg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="nuts chocolate" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);">            
+      </div>          
+    </div>
+  </div>
+  <div class="card card_poscard m-5" style="box-shadow: 0 0 50px 0 rgba(157, 117, 8, 0.664);">
+    <div class="row">
+      <div class="col-12 col-md-4">            
+        <img src="images/chocolate19.jpg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="truffle chocolate" style="clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);">            
+      </div> 
+      <div class="col-12 col-md-8 ps-3 pb-5">
+        <div class="card-body">
+          <h2 class="card-title n-style font mb-2">truffle chocolate</h2>
+          <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="n-style text-dark">Wed, May 22th 2024</small>
+          <div class="ligne bg-color rounded" style="height: 2px; width: 60px;"></div>
+          <p class="card-text fst-italic lh-lg n-style text-dark">STEP 1. Break the chocolate into small pieces in a heatproof dish. Melt it in a bain-marie.
+
+            STEP 2. Gradually add the butter cut into small cubes. Mix.
+            
+            STEP 3. When the butter has melted into the chocolate, remove the dish from the heat, add the egg yolks, vanilla sugar (it adds crunch, if you want a smooth texture, add 10 g of icing sugar and 1 drop of liquid vanilla) and icing sugar. Mix everything well.
+            
+            STEP 4. Put the dough in the fridge for at least an hour so that it solidifies.
+            
+            STEP 5. Then, form small balls of dough by hand, roll them in cocoa then place them on a dish.</p>
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>22 mins</a>            
+          <a class="btn n-style text-dark gradient-bg-color me-3 mb-3 btn-hover nav-hover" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+        </div>
+      </div>         
+    </div>
+  </div>
+</section>  <!-- /ending of our recipes section -->  
+<footer> <!-- begining of join us section -->
+  <div class=" m-0 w-100 rounded gradient-bg-color p-4 ">
+    <h2 class="text-center text-style text-white font ">join us</h2>
+  </div>
+  <div class="container d-flex justify-content-around align-items-center">
+        <div class="d-flex flex-column align-items-center justify-content-around border-0 rounded-4 nav-hover" style="width:200px; height:200px; box-shadow: 0 0 50px 0 rgba(157, 117, 8, 0.664);">
+           <h2 class="n-style fs-4">subscribe now</h2>
+           <a class="icon" href="#" title="twitter"><i class="fa-brands fa-square-twitter"></i></a>
+           <p class="n-style fs-5">go to link</p>
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-around border rounded-4 nav-hover" style="width:200px; height:200px; box-shadow: 0 0 50px 0 rgba(157, 117, 8, 0.664);">
+           <h2 class="n-style fs-4">follow</h2>
+           <a class="icon" href="#" title="whatsapp"><i class="fa-brands fa-square-whatsapp"></i></a>
+           <p class="n-style fs-5">go to link</p>
+        </div> 
+        <div class="d-flex flex-column align-items-center justify-content-around border rounded-4 nav-hover" style="width:200px; height:200px; box-shadow: 0 0 50px 0 rgba(157, 117, 8, 0.664);">
+          <h2 class="n-style fs-4">like the page</h2>
+          <a class="icon" href="#" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+          <p class="n-style fs-5">go to link</p>
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-around border rounded-4 nav-hover" style="width:200px; height:200px; box-shadow: 0 0 50px 0 rgba(157, 117, 8, 0.664);">
+          <h2 class="n-style fs-4">watch videos</h2>
+          <a class="icon" href="#" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+          <p class="n-style fs-5">go to link</p>
+        </div>   
+  </div>
+</br>
+  <div class="content_footer row d-flex justify-content-around align-items-center flex-wrap bg-color p-5">
+    <div class="box_footer col-12 col-md-3 border-bottom ">
+      <div class="title_footer d-flex justify-content-center align-items-center  border-bottom border-top mx-4">
+        <a class="m-4 rounded-circle" style="box-shadow: 0 0 50px 0 white;" href="#">
+          <img class="img-fluid rounded-circle" src="images/chocolate1.jpg" alt="logo" style="width: 50px;height: 50px;">
+        </a>
+        <h3 class="text-center n-style text-white fw-bold fs-4" style="color: rgba(157, 117, 8, 0.664);">The best choice</h3>
+      </div>        
+      <div class="body_footer">
+        <p class="text-white text-center n-style bg-hoverfooter my-2">Tel : 000-000-000</p>
+        <p class="text-white text-center n-style bg-hoverfooter">Address : Algeria</p>
+        <p class="text-white text-center n-style bg-hoverfooter">Fax : 000-000-000</p>
+      </div>
+    </div>
+    <div class="box_footer col-12 col-md-3 border-bottom ">
+      <div class="title_footer d-flex justify-content-center align-items-center  border-bottom border-top mx-4">
+        <a class="m-4 rounded-circle" style="box-shadow: 0 0 50px 0 white;" href="#">
+          <img class="img-fluid rounded-circle" src="images/chocolate1.jpg"alt="logo" style="width: 50px;height: 50px;">
+        </a>
+        <h3 class="text-center n-style text-white fw-bold fs-4" style="color: rgba(157, 117, 8, 0.664);">delicious taste</h3>
+      </div>        
+      <div class="body_footer">
+        <a class="text-white n-style fs-6 bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Visit Us</a>
+        <a class="text-white n-style fs-6 bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Take Alook</a>
+        <a class="text-white n-style fs-6 bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Your Health is More Important</a>
+      </div>
+    </div>
+    <div class="box_footer col-12 col-md-3 border-bottom ">
+      <div class="title_footer d-flex justify-content-center align-items-center  border-bottom border-top mx-4">
+        <a class="m-4 rounded-circle" style="box-shadow: 0 0 50px 0 white;" href="#">
+          <img class="img-fluid rounded-circle" src="images/chocolate1.jpg"alt="logo" style="width: 50px;height: 50px;">
+        </a>
+        <h3 class="text-center n-style text-white fw-bold fs-4" style="color: rgba(157, 117, 8, 0.664);">chocolate joy</h3>
+      </div>        
+      <div class="body_footer">
+        <a class="text-white n-style fs-6 bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">All Services</a>
+        <a class="text-white n-style fs-6 bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Provide Best Services</a>
+        <a class="text-white n-style fs-6 bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">You Will Be Better Than Before</a>
+      </div>
+    </div>
+  </div>   
+<div class="copyright m-0 w-100 p-4 bg-color">
+  <p class="copyright text-center text-color text-style fs-5 p-3 border-top border-bottom">&copy; tayebi hadjira. 2024 <span>Algeria</span> All Right Reserved.</p>
+</div>
+</footer><!-- /ending of join us section -->
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+    </body>
+</html>
