@@ -113,6 +113,16 @@ body{
      color:rgba(157, 117, 8, 1) !important;
     
   
+}
+@media (max-width:767px) {
+    .card_poscard .d-port{
+      display: flex !important;
+      flex-direction: column-reverse !important;
+    }  
+  
+    .card_poscard .img_poscard{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)!important;
+    }  
   }
  
 
